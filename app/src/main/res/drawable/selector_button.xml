@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Botón en estado presionado -->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- Aquí puedes definir el fondo y otros atributos -->
+            <solid android:color="#FF5733" /> <!-- Color de fondo en estado presionado -->
+        </shape>
+    </item>
+
+    <!-- Botón en estado enfocado (cuando se selecciona) -->
+    <item android:state_focused="true">
+        <shape>
+            <!-- Aquí puedes definir el fondo y otros atributos -->
+            <solid android:color="#FFA933" /> <!-- Color de fondo en estado enfocado -->
+        </shape>
+    </item>
+
+    <!-- Estado predeterminado (cuando el botón no está presionado ni enfocado) -->
+    <item>
+        <shape>
+            <!-- Aquí puedes definir el fondo y otros atributos -->
+            <solid android:color="#33B5E5" /> <!-- Color de fondo predeterminado -->
+        </shape>
+    </item>
+</selector>
